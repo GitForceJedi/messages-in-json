@@ -24,6 +24,16 @@
 
 ## Description
 
+Simple Nest API Project that allows saving messages to a JSON file repository.
+
+Simply send a POST request to localhost:3000/messages with a body of:
+
+{
+"content": "Your message here"
+}
+
+The message will be added to the JSON file with a uuid.
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
